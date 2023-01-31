@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCA Time Table</title>
+</head>
+<body>
+    <style>
+        html,body {
+            margin: 0;
+        }
+        header {
+            background:linear-gradient(45deg,deeppink,purple);
+            text-align: center;
+            color: aqua;
+        }
+        table,tr,th,td {
+            border: 2px solid deeppink;
+            border-collapse: collapse;
+
+        }
+        .table-design {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th:nth-child(4) {
+            vertical-align: middle;
+        }
+    </style>
+    <header>
+         <h1> Time Table for MCA students</h1>
+    </header>
+    <div>
+        <table class="table-design">
+            <tr>
+            <th>Day Order</th>
+            <th>1st Hour</th>
+            <th>2nd hour</th>
+            <th rowspan="6"> INTERVAL</th>
+            <th>3rd hour</th>
+            <th>4th Hour</th>
+            <th rowspan="6"> LUNCH</th>
+            <th>5th hour</th>
+            <th>6th hour</th>
+        </tr>
+        <tr>
+            <th>I</th>
+            <th>IOT</th>
+            <th>BDA</th>
+            <th>.NET</th>
+            <th>WEB LAB</th>
+            <th>OR</th>
+            <th>SPM</th>
+        </tr>
+        <tr>
+            <th>II</th>
+            <th>BDA</th>
+            <th>IOT</th>
+            <th>OR</th>
+            <th>WEB LAB</th>
+            <th>SPM</th>
+            <th>.NET</th>
+
+        </tr>
+        <tr>
+            <th>III</th>
+            <th>.NET</th>
+            <th>OR</th>
+            <th>BDA</th>
+            <th>SPM</th>
+            <th>IOT</th>
+            <th>IOT</th>
+        </tr>
+        </table>
+    </div>
+</body>
+</html>
